@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Card from "./components/Card";
+import star from "./img/Star.png"
+import data from "./data";
 
-function App() {
+export default function App(){
+  const cards = data.map(item => {
+    return (
+      <Card 
+        key={item.id} // To remove the error => Warning: Each child in a list should have a unique "key" prop.
+        {...item} // the same as item={item}, slight changes in App.js
+        imgStar={star}
+      />
+    )
+  })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Hero />
+      <section className="cards-list">
+        {cards}
+      </section>
     </div>
-  );
+  )
 }
-
-export default App;
