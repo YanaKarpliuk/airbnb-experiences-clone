@@ -1,14 +1,17 @@
 {
   "files": {
     "main.css": "/airbnb-experiences-clone/static/css/main.43c67018.css",
-    "main.js": "/airbnb-experiences-clone/static/js/main.35e57543.js",
+    "main.js": "/airbnb-experiences-clone/static/js/main.2148b98c.js",
     "static/media/Group 77.png": "/airbnb-experiences-clone/static/media/Group 77.6ec6d6d36b8d13d770c2.png",
+    "static/media/swimmer.png": "/airbnb-experiences-clone/static/media/swimmer.0bcbf0bd7b96c297cd60.png",
+    "static/media/mountain.png": "/airbnb-experiences-clone/static/media/mountain.47be71ea41efb172c532.png",
+    "static/media/wedding.png": "/airbnb-experiences-clone/static/media/wedding.97483e1f5e137c10a6dd.png",
     "index.html": "/airbnb-experiences-clone/index.html",
     "main.43c67018.css.map": "/airbnb-experiences-clone/static/css/main.43c67018.css.map",
-    "main.35e57543.js.map": "/airbnb-experiences-clone/static/js/main.35e57543.js.map"
+    "main.2148b98c.js.map": "/airbnb-experiences-clone/static/js/main.2148b98c.js.map"
   },
   "entrypoints": [
     "static/css/main.43c67018.css",
-    "static/js/main.35e57543.js"
+    "static/js/main.2148b98c.js"
   ]
 }
